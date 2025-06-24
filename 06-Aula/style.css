@@ -1,0 +1,42 @@
+nav{
+    background-color: orange;
+}
+ul{
+    list-style-type: none ;
+}
+li{
+    font-size: 30px;
+}
+
+div{
+    background-color: chartreuse;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+/* Estilização por id */
+#Caixa-roxa{
+    background-color: purple;
+    color: white;
+    width: 200px;
+    height: 300px;
+}
+#Caixa-rosa{
+    background-color: #e94196;
+    color: white;
+    width: 1200px;
+    height: 300px;
+    margin: 20px auto; 
+    padding: 20px;
+}
+/* Estilização por class */
+
+.minicaixa{
+    background-color: black;
+    font-size: 35px;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+     display: inline-block;
+}

@@ -6,3 +6,25 @@ body{
        background-repeat: repeat-x;
        background-size: 300px 100px;
 }
+
+#first{
+    width: 90%;
+    height: 2000px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7oIS9uASYbqbQUU3YBLU520ee10UdfYBE0tq9xmDhamE6t9vkUOFaPolkzRGiYK1rGzU&usqp=CAU" ); 
+    background-repeat: repeat-y;
+  }
+  #second{
+    background-image: url("https://f.i.uol.com.br/fotografia/2022/11/27/16695902486383ece824833_1669590248_3x2_rt.jpg");
+    margin: auto;
+    background-position: center;
+     width: 200px;
+    height: 200px;
+  }
+  body{
+    background-color: yellow; 
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ4-XjRNscJsNeTL1QI5usj8A5cGsRO6f9c2tJNcSjF-UwIk70X4XE9cy4B67Bl02k4G4&usqp=CAU" ); 
+    background-attachment: fixed;
+  }

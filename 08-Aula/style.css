@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+body{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    background-color: beige;
+    color: black;
+}
+#abu{
+    text-align: right;
+}
+#abu2{
+    text-align: left;
+}
+#abu3{
+    text-align: center;
+}
+#abu4{
+    text-align:justify ;
+}
+#minusculo{
+text-transform: lowercase;
+}
+#maiusculo{
+text-transform: lowercase;
+}
+#capitalizado{
+    text-transform: capitalize;
+}
+h1{
+    font-size: 50px;
+    font-weight: 400;
+    text-shadow: 10px 5px black;
+}
+#decorado{
+     text-decoration: overline underline blue;
+}
+#outra-fonte{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
+#fonte-google{
+      font-family: "Manufacturing Consent", system-ui;
+}
+@font-face{
+    font-family: 'Michroma';
+    src: url("./fontes/Michroma-Regular.ttf");   
+}
+#fonte-dos-cria{
+      font-family: 'Michroma', sans-serif;
+      font-size: 50px;
+}

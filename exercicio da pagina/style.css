@@ -1,0 +1,38 @@
+#gteco{
+    text-align: center;
+}
+#GTRLOGO{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    margin: auto;
+}
+#HOME{
+    background-position: right ;
+    width: 150px;
+}
+#HISTORIA{
+background-position: center;
+width: 150px;
+}
+#MOTOR{
+    background-position: center;
+    width: 150px;
+}
+#CÂMBIO{
+    background-position: center;
+    width: 150px;
+
+}
+#ELETRÔNICA{
+    background-position: center;
+    width: 150px;
+}
+#FAMA{
+   background-position: center;
+   width: 150px; 
+}
+#MERCADO{
+   background-position: center;
+   width: 150px; 
+}

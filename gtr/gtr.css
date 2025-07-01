@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+#cba{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+ text-align: center;
+ color: white;
+ font-family: Manufacturing;
+}
+#abcd{
+    width: auto;
+    margin: auto;
+}
+#gtr{
+    color: whitesmoke;
+}
+#gray{
+    background-color: grey;
+    text-align: center;
+    height: 100px;
+}
+#lala{
+border: 5px;
+color: gray;
+}
+#motor{
+    width: 600px;
+     color: blue;
+    
+}
+#a1{
+    color: blue;
+}
+#a2{
+    color: blue;
+}
+#a3{
+    color: blue;
+}
+#a4{
+    color: blue;
+}
+#a5{
+    color: blue;
+}
+#a6{
+    color: blue;
+}
+#a7{
+    color: blue;
+}
+#eletronica{
+     color: blue;
+}
+#interior{
+     color: blue;
+}
+#mercado{
+     color: blue;
+}

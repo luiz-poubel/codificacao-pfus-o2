@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:#E5D8C5;
+}
+#navegaçao{
+    width: 80%;
+    background-color: rgb(122, 56, 30);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+    overflow: auto;
+}
+.simbolo{
+    color: black (0, 0, 0);
+    font-size: 40px;
+}
+#item-menu{
+    list-style: none;
+    float: right;
+}
+li{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 5px;
+}li:hover{
+    color: black;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 15px;
+    transform: scaleX(1,1);
+    transform: scaleY(1,1);
+}
+#logo{
+    float: left;
+}

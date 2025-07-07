@@ -38,7 +38,42 @@ li{
 #logo{
     float: left;
 }
-
+main{
+    background-color: teal;
+    height: 2000px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+    font-size: 30px;
+    color: darkgreen;
+}
+#bloco{
+    background-color: cadetblue;
+    height: 200px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    margin-top: 20px;
+}
+#linha-bloco{
+    background-color: slateblue;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+}
+.mini-bloco{
+    background-color: darkgreen;
+    width: 30%;
+    margin-top: 5px;
+    display: inline-block;
+    height: 200px;
+    line-height: 200px;
+}
 @media screen and (max-width: 900px){
        body{
         background-color: rgb(180, 164, 153);

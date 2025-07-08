@@ -1,5 +1,8 @@
 body{
-    background-color: white;
+    background-color: gray;
+     margin: 0px;
+    padding: 0px;
+    position: relative;
 }
 #gteco{
     text-align: center;
@@ -8,11 +11,9 @@ body{
     display: inline;
 }
 .opcoes{
-     display: inline-block;
-     background-color: white;
-     text-align: center;
+     display: inline-block; 
 }
-.opcoes > img{
-    width: 100px;
-    height: 100px;
+.rodapé{
+    text-align: center;
+    position: static ;
 }

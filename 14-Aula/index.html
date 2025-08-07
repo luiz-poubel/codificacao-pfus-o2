@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- Aqui inicia a barrra de navegação -->
+        <nav
+          class="navbar navbar-expand-lg bg-body-tertiary bg-dark"
+          data-bs-theme="dark"
+        >
+          <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <a class="navbar-brand" href="#">
+              <img
+                src="https://www.guiafeurosa.com.br/files/guia/21/lava-jato-do-zue-em-feu-rosa-serra-es.webp"
+                alt="Logo"
+                width="40"
+                height="40"
+                class="d-inline-block align-text-top"
+              />
+              Detail Pádua
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contatos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Informações
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Preços</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Agendamento</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true"
+                    >A top 1 lavagem do mercado</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Pesquisar"
+                  aria-label="Pesquisar"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Pesquisar
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <!-- FIM DA BARA DE navegação -->
+      </header>
+
+      <main>
+        <!-- Criando um carrossel -->
+        <div id="carouselExampleCaptions" class="carousel slide my-3">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeB05ka-mcj8rtxbq55sfOhhT7PG3wNgGRMA&s"
+                class="d-block w-100"
+                alt="..."
+                height="800px"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>HONDA CITY</h5>
+                <p>
+                  HATCH
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.autoo.com.br/fotos/2021/4/1280_960/chevrolet_tracker_2022_1_01042021_47656_1280_960.jpg"
+                class="d-block w-100"
+                alt="..."
+                height="600px"
+                
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>CHEVY TRACKER</h5>
+                <p>
+                  SUV
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8RqWVU7LkSCWkyMN9JeqfgAyON2P7fMF5ww&s"
+                class="d-block w-100"
+                alt="..."
+                height="800px"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>NISSAN FRONTIER</h5>
+                <p>
+                  CAMINHONETE
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- fim do carrosel -->
+
+        <!-- Grupo de cartões -->
+<div class="card-group my-5">
+  <div class="card">
+    <img src="https://www.covreequipamentos.com.br/imagens/informacoes/equipamentos-lavagem-carros-01.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Primeira Lavagem</h5>
+     <p class="card-text">R$ 40,00 somente para carros hatch`s</p>
+      <p class="card-text"><small class="text-body-secondary">Autor: Eu</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://static.vecteezy.com/ti/fotos-gratis/p1/21140531-homem-lavando-carro-suv-americano-de-agua-de-alta-pressao-com-rack-de-teto-na-lavagem-de-autoatendimento-em-clima-frio-foto.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Segunda Lavagem</h5>
+      <p class="card-text">R$ 60,00 somente para suv`s</p>
+      <p class="card-text"><small class="text-body-secondary">Autor: Eu</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.lavarapidoribeirao.com.br/wp-content/uploads/2022/05/lava-jato-dornellas-caminhonete-limpa-800x600-1-1.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Terceira Lavagem</h5>
+      <p class="card-text">R$ 70,00 somente para caminhonetes</p>
+      <p class="card-text"><small class="text-body-secondary">Autor: Eu</small></p>
+    </div>
+  </div>
+</div>
+        <!-- Fim do grupo de cartões -->
+      </main>
+
+      <footer>
+        <div class="container"> <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> <p class="col-md-4 mb-0 text-body-secondary">© 2025 Detail Pádua</p> <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap"> <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <ul class="nav col-md-4 justify-content-end"> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contatos</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Informações</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">A top 1 da lavagem</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Detail Pádua custo benefício em um só lugar</a></li> </ul> </footer> </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
